@@ -20,21 +20,21 @@ class _HomePageState extends State<HomePage> {
       body: Responsive(
         mobile: Center(
           child: Container(
-            color: Colors.blue,
+            color: Colors.red,
             width: 100,
             height: 100,
           ),
         ),
         tablet: Center(
           child: Container(
-            color: Colors.red,
+            color: Colors.green,
             width: 100,
             height: 100,
           ),
         ),
         desktop: Center(
           child: Container(
-            color: Colors.green,
+            color: Colors.blue,
             width: 100,
             height: 100,
           ),
